@@ -20,7 +20,7 @@ const UseEffectTwo = () => {
   }, []); // Empty dependency array ensures this runs only once on mount
 
   useEffect(()=>{
-    document.title = `count: ${height} ${width}`;
+    document.title = `count: ${height} ${z}`;
   },[height,width]);
   return (
     <div>
