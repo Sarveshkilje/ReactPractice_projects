@@ -12,6 +12,8 @@ import "./App.css";
 // import OnChange from "./components/OnChange";
 // import Props from "./components/Props";
 import ToDoList from "./components/ToDoList";
+import UseEffects from "./components/UseEffects";
+import UseEffectTwo from "./components/useEffectTwo";
 
 function App() {
   return (
@@ -28,7 +30,9 @@ function App() {
       {/* <ObjectUpdate/> */}
       {/* <ArrayUpdate/> */}
       {/* <ArrayObjectUpdate/> */}
-      <ToDoList/>
+      {/* <ToDoList/> */}
+      {/* <UseEffects/> */}
+      <UseEffectTwo/>
     </>
   );
 }
